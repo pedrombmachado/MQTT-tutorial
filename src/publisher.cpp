@@ -48,11 +48,11 @@
 using namespace std;
 
 const std::string DFLT_SERVER_ADDRESS	{ "tcp://localhost:1883" };
-const std::string DFLT_CLIENT_ID		{ "async_publish" };
+const std::string DFLT_CLIENT_ID		{ "publisher" };
 
-const string TOPIC { "hello" };
+const string TOPIC { "topic2" };
 
-const char* PAYLOAD1 = "Hello World!";
+const char* PAYLOAD1 = "Hello from publisher 1 (Eclipse terminal)!";
 const char* PAYLOAD2 = "Hi there!";
 const char* PAYLOAD3 = "Is anyone listening?";
 const char* PAYLOAD4 = "Someone is always listening.";

@@ -1,6 +1,7 @@
 PROJECT_ROOT = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-NAME = async_publish
+NAME = subscriber
+# subscriber publisher
 OBJS = $(FILE_NAME).o
 BUILD_MODE=run
 
