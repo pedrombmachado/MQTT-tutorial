@@ -40,7 +40,7 @@
 #include "mqtt/async_client.h"
 
 const std::string SERVER_ADDRESS("tcp://localhost:1883");
-const std::string CLIENT_ID("async_subcribe_cpp");
+const std::string CLIENT_ID("eclipse_subscriber");
 const std::string TOPIC("topic1");
 
 const int	QOS = 1;

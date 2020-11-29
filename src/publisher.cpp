@@ -48,7 +48,7 @@
 using namespace std;
 
 const std::string DFLT_SERVER_ADDRESS	{ "tcp://localhost:1883" };
-const std::string DFLT_CLIENT_ID		{ "publisher" };
+const std::string DFLT_CLIENT_ID		{ "eclipse_publisher" };
 
 const string TOPIC { "topic2" };
 
